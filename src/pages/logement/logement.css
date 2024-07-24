@@ -1,0 +1,88 @@
+.logement {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.host_and_rating {
+    display: flex;
+    gap: 3px;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.host_content {
+    display: flex;
+}
+
+.host_content img {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+.host_name {
+    color: #ff6060;
+}
+
+.location h3 {
+    color: #ff6060;
+    margin-bottom: 4px;
+    font-size: 28px;
+}
+
+.title_and_tags {
+    display: flex;
+    flex-direction: column;
+}
+
+.location_place {
+    margin-top: 0;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #ff6060;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 5px 20px;
+    color: white;
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logement-collapse {
+    width: 50%;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+
+.rate {
+    color: grey;
+}
+
+.active-rate {
+    color: #ff6060;
+}
+
+.tags_rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {}

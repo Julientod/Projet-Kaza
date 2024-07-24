@@ -1,0 +1,60 @@
+.arrow {
+    position: absolute;
+}
+
+.arrow-left {
+    left: 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.arrow-right {
+    height: 50px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.carousel {
+    width: 100%;
+    height: 470px;
+    position: relative;
+
+
+}
+
+.carousel .activeImg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+}
+
+.counter {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.carouselContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

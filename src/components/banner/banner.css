@@ -1,0 +1,33 @@
+.banner {
+    height: 220px;
+    padding: 38px;
+
+    @media (max-width: 480px) {
+        height: 110px;
+    }
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.banner-opacity {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    bottom: 102%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}

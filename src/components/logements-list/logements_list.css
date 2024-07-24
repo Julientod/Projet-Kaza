@@ -1,0 +1,9 @@
+.logements_list {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 38px;
+    padding: 39px;
+}
