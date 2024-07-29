@@ -36,3 +36,22 @@ nav a:hover {
     justify-content: space-between;
     background-color: lightgrey;
 }
+
+@media (max-width: 768px) {
+    header {
+
+        margin: 10px;
+    }
+
+    nav {
+        gap: 0;
+    }
+
+    nav a {
+        padding: 5px;
+    }
+
+    header img {
+        height: 40px;
+    }
+}

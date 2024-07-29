@@ -1,11 +1,9 @@
 .banner {
     height: 220px;
     padding: 38px;
-
-    @media (max-width: 480px) {
-        height: 110px;
-    }
 }
+
+
 
 .banner img {
     width: 100%;
@@ -30,4 +28,17 @@
     color: white;
     font-weight: 700;
     font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 110px;
+        padding: 10px;
+    }
+
+    .banner-text {
+
+        font-size: 2rem;
+        padding: 10px;
+    }
 }

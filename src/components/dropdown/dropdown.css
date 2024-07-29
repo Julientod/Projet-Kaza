@@ -4,14 +4,11 @@
 }
 
 .dropdown {
-    margin: 30px auto;
+    margin: 30px 0;
     width: 100%;
     box-sizing: border-box;
 
-    @media (max-width: 480px) {
-        margin: 10px auto;
-        width: 335px;
-    }
+
 }
 
 
@@ -66,4 +63,14 @@
     margin: 4px;
     padding: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .dropdown {
+        margin: 10px 0;
+
+
+
+
+    }
 }

@@ -1,7 +1,11 @@
-.dropdown {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.about_us_container {
     width: 90%;
+    margin: 0 auto;
+}
 
+
+@media (max-width: 768px) {
+    .about_us_container {
+        margin: 10px;
+    }
 }

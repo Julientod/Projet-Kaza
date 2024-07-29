@@ -23,7 +23,7 @@ function App() {
             <Route exact path="/logement/:id" element={<Logement />} />
 
             <Route exact path="/about-us" element={<AboutUs />} />
-            <Route exact path="/ErrorPage" element={<ErrorPage />} />
+            <Route exact path="/error" element={<ErrorPage />} />
             <Route exact path="/*" element={<Navigate replace to="/error" />} />
           </Routes>
           <Footer />

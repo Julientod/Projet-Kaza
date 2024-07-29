@@ -1,6 +1,5 @@
 .logement {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 0 70px;
 }
 
 .location {
@@ -17,12 +16,15 @@
 
 .host_content {
     display: flex;
+    align-items: center;
+
 }
 
 .host_content img {
     border-radius: 50%;
     height: 64px;
     width: 64px;
+    margin-left: 10px;
 }
 
 .host_name {
@@ -64,12 +66,14 @@
 
 .logement-collapse {
     width: 50%;
+    padding: 10px;
 }
 
 .rating {
     display: flex;
     gap: 5px;
     margin: 10px;
+    align-items: center;
 }
 
 .rate {
@@ -85,4 +89,38 @@
     justify-content: space-between;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+    .logement {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .location {
+        flex-direction: column;
+    }
+
+
+    .collapse {
+        flex-direction: column;
+    }
+
+    .logement-collapse {
+        width: 100%;
+        padding: 0;
+    }
+
+    .host_and_rating {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .location h3 {
+        font-size: 30px;
+    }
+
+    .location_title {
+        font-size: 19px;
+    }
+}

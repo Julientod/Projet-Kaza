@@ -8,7 +8,7 @@ function AboutUs() {
   return (
     <>
       <BannerAboutUs />
-      <div className="dropdown">
+      <div className="about_us_container">
         <div className="dropdown-about">
           {AboutUsList.map((about) => (
             <Dropdown
